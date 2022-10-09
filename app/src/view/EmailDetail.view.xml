@@ -1,7 +1,7 @@
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-	<Page title="Password list detail">
+	<Page title="Password list">
 		<Table id="pwDetails" items="{path: '/password'}">
 			<columns>
 				<Column
