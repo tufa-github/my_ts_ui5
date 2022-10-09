@@ -1,0 +1,64 @@
+<mvc:View
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page title="Password list detail">
+		<Table id="pwDetails" items="{path: '/password'}">
+			<columns>
+				<Column
+					width="12em">
+					<Text text="loginemail" />
+				</Column>
+				<Column
+					width="12em">
+					<Text text="identifier" />
+				</Column>
+				<Column
+					width="12em">
+					<Text text="password" />
+				</Column>
+				<Column
+					width="12em">
+					<Text text="recoverycode" />
+				</Column>
+				<Column
+					width="12em">
+					<Text text="firstname" />
+				</Column>
+				<Column
+					width="12em">
+					<Text text="lastname" />
+				</Column>
+				<Column
+					width="12em">
+					<Text text="department" />
+				</Column>
+				<Column
+					hAlign="End">
+					<Text text="location" />
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem vAlign="Middle">
+					<cells>
+						<Text
+							text="{loginemail}" />
+						<Text
+							text="{identifier}" />
+						<Text
+							text="{password}" />
+						<Text
+							text="{recoverycode}" />
+						<Text
+							text="{firstname}" />
+						<Text
+							text="{lastname}" />
+						<Text
+							text="{department}" />
+						<Text
+							text="{location}" />
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+	</Page>
+</mvc:View>
