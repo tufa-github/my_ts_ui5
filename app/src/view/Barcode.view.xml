@@ -1,0 +1,21 @@
+<mvc:View
+	controllerName="tufa.fioriDemo.controller.Barcode"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:ndc="sap.ndc"
+	xmlns:mvc="sap.ui.core.mvc">
+
+	<VBox class="sapUiSmallMargin">
+		<ndc:BarcodeScannerButton
+			id="button"
+			scanSuccess="onScanSuccess"
+			scanFail="onScanError"
+			dialogTitle="Barcode Scanner Button Sample"
+		/>
+		<HBox class="sapUiTinyMarginTop">
+			<Label text="Scan Result:"/>
+			<Text id="result" text="" class="sapUiTinyMarginBegin"/>
+		</HBox>
+	</VBox>
+
+</mvc:View>

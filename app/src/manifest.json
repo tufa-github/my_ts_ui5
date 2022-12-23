@@ -26,7 +26,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "tufa.fioriDemo.view.App",
+			"viewName": "tufa.fioriDemo.view.Barcode",
 			"type": "XML",
 			"async": true,
 			"id": "app"
